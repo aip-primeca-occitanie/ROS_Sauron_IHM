@@ -1,0 +1,103 @@
+/* Project : DBRIF
+ * Authors : Julie PIVIN-BACHLER & Anaïs MONDIN
+ * Date : 2021-2022
+ * 3A SRI
+ */
+.popup-box {
+    position: absolute;
+    background: rgba(39,51,57,0.6);
+    border-radius: 4px;
+    top: 18vh;
+    right: 48vw;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #273339;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 1);
+    width:30vw;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    background-color: #E7E6E6;
+    border: 2px solid #999;
+    padding:0.35vw;
+    margin:1.05vh;
+}
+
+.popup-title {
+    font-weight: bold;
+    color: #273339;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size:2.4vh;
+}
+.popup-recap-title {
+    text-align: center;
+    padding-bottom: 1.3vh;
+    font-size: 1.9vh;
+    text-align: left;
+    color: #273339;
+    font-weight:800;
+}
+
+.popup-element{
+    padding-left:2.6vw;
+    font-size:2.05vh;
+}
+.img-pause-stop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom:1vh;
+}
+
+.bouton-stop{
+  width: 3.3vw;
+  opacity:0.6;
+}
+
+.bouton-stop:hover{
+    opacity:1;
+    cursor:pointer;
+}
+
+.bouton-cancel {
+    width: 3.3vw;
+    opacity:0.5;
+}
+
+.bouton-cancel:hover {
+    opacity: 1;
+    cursor:pointer;
+}
+
+.bouton-confirm {
+    width: 3.3vw;
+    opacity: 0.5;
+}
+
+.bouton-confirm:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.avancement-box {
+  background: black;
+  border-radius: 4px;
+  padding: 20px;
+  border-top: 1px groove #999;
+}
+
+.etat-title{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  color:white
+}
+
+.espace-boutons {
+    padding-left: 1.8vw;
+    padding-right: 1.8vw;
+}

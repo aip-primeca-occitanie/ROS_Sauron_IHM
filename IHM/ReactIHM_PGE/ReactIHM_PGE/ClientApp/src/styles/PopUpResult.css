@@ -1,0 +1,75 @@
+/* Project : DBRIF
+ * Authors : Julie PIVIN-BACHLER & Anaïs MONDIN
+ * Date : 2021-2022
+ * 3A SRI
+ */
+
+.popup-box-conformity {
+    position: absolute;
+    background: rgba(39,51,57,0.9);
+    border-radius: 4px;
+    top: 0;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #273339;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 1);
+    margin-left: -77vw;
+    margin-top: -7vh;
+}
+
+.image-trou-conformity {
+    width: 65vh;
+    margin-left: 0.4vw;
+    margin-bottom: 0.5vw;
+}
+
+.box-conformity {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    background-color: #E7E6E6;
+    border: 2px solid #999;
+    width: 34.5vw;
+    margin: 1vh;
+}
+
+.annuler-result {
+    background-color: #E7E6E6;
+    border-radius: 6px;
+    color: #273339;
+    opacity: .8;
+    font-size: 1.9vh;
+    padding: 0.3vh;
+}
+
+    .annuler-result:hover {
+        opacity: 1;
+    }
+
+    .annuler-result:disabled {
+        opacity: 0.2;
+    }
+
+.forcer-conform {
+    background-color: #273339;
+    color: white;
+    border-radius: 6px;
+    opacity: 0.8;
+    font-size: 1.9vh;
+    padding: 0.3vh;
+}
+
+    .forcer-conform:hover {
+        opacity: 1;
+    }
+
+    .forcer-conform:disabled {
+        opacity: 0.2;
+    }
+
+.popup-title-conformity {
+    font-weight: bold;
+    color: #273339;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}

@@ -1,0 +1,86 @@
+/* Project : DBRIF
+ * Authors : Julie PIVIN-BACHLER & Anaïs MONDIN
+ * Date : 2021-2022
+ * 3A SRI
+ */
+
+.pge-id-title {
+    text-align: center;
+    padding-bottom:1.3vh;
+    color: #273339;
+    font-size:3vh;
+}
+
+.pge-id-champ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vh;
+    color: black;
+}
+
+.forgotten-mdp .css-901oao {
+    font-size:1.7vh;
+}
+
+.input-box, textarea{
+    background-color:white;
+    width: 98%; 
+    font-size:1.9vh;
+}
+
+.input-box-fail, textarea {
+    border-style: solid;
+    border-color: rgba(227,6,19,0.8);
+    border-width: 2px;
+    width: 98%;
+    font-size: 1.9vh;
+}
+
+.lineCo{
+    padding-top:1.2vh;
+}
+
+.input-button{
+    background-color: #273339;
+    color: white;
+    float: right;
+    height: 3.2vh;
+    border-radius:6px;
+    font-size:1.7vh;
+}
+
+.input-button:disabled {
+    opacity:0.2;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    padding-bottom: 20px;
+    font-size:2vh;
+}
+
+.forgotten-mdp{
+    text-decoration: underline;
+    color : blue;
+}
+
+.logo-usr {
+    padding-top: 8vh;
+    width: 6vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.info-erreur {
+    padding-top: 0.9vh;
+    font-size: 1.65vh;
+    font-style: italic;
+    color: rgb(227,6,19);
+    text-align: center;
+}
